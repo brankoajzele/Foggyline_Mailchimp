@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Foggyline
+ *
+ * @category    Foggyline
+ * @package     Foggyline_Mailchimp
+ * @copyright   Copyright (c) Foggyline <ajzele@gmail.com, branko.ajzele@foggyline.net>
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Foggyline_Mailchimp>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Newsletter />
+            </depends>
+        </Foggyline_Mailchimp>
+    </modules>
+</config>
